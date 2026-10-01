@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Page title, description, fonts, and shared stylesheet. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee — Hulma</title>
+    <meta name="description" content="Coffee — part of the Hulma menu.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Site header: logo, navigation, and mobile menu button. -->
+    <header class="site">
+      <nav class="wrap">
+        <a href="home.html" class="brand">
+          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+            <circle cx="20" cy="20" r="19" fill="var(--bronze-600)"/>
+            <path d="M8 24c2-8 6-12 12-12s10 4 12 12" stroke="var(--paper)" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <path d="M11 21c1.6-6 4.6-9 9-9s7.4 3 9 9" stroke="var(--paper)" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.7"/>
+          </svg>
+          <span class="brand-name">hulma</span>
+        </a>
+        <ul class="nav-links" id="siteNav">
+          <li>
+            <a href="home.html">Home</a>
+          </li>
+          <li>
+            <a href="shop.html" class="active">Shop</a>
+          </li>
+          <li>
+            <a href="workshops.html">Workshops</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-cta">
+          <a href="signup.html" class="btn btn-outline">Sign up</a>
+          <a href="order-now.html" class="btn btn-primary">Order Now</a>
+        </div>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="siteNav" aria-expanded="false">
+          <svg width="26" height="26" viewBox="0 0 26 26">
+            <path d="M3 7h20M3 13h20M3 19h20" stroke="var(--ink-900)" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <!-- Breadcrumb: shows the current page in the site. -->
+    <div class="breadcrumb wrap"><a href="home.html">Home</a><span class="sep">/</span><a href="shop.html">Shop</a><span class="sep">/</span><a href="menu.html">Menu</a><span class="sep">/</span><span class="current">Coffee</span></div>
+    <!-- Main content: Coffee items, descriptions, and prices. -->
+    <main>
+      <section class="page-hero">
+        <div class="wrap reveal">
+          <p class="eyebrow">Shop / Menu / Coffee</p>
+          <h1>Coffee</h1>
+          <p class="lede">Beans rotate monthly from small farms — ask the counter what's pouring today.</p>
+          <a href="menu.html" class="back-link">&larr; Back to Menu</a>
+        </div>
+      </section>
+      <section class="section-content">
+        <div class="wrap">
+          <div class="shop-card reveal content-narrow">
+            <div class="menu-photo-grid">
+              <div class="menu-photo-card">
+                <img class="mpc-img" src="images/drip-coffee.svg" alt="Drip Coffee placeholder image" loading="lazy">
+                <div class="mpc-body">
+                  <span><span class="item-name">Drip Coffee</span><span class="item-desc">House blend, brewed to order</span></span>
+                  <span class="item-price">&#8369;95</span>
+                </div>
+              </div>
+              <div class="menu-photo-card">
+                <img class="mpc-img" src="images/espresso.svg" alt="Espresso placeholder image" loading="lazy">
+                <div class="mpc-body">
+                  <span><span class="item-name">Espresso</span><span class="item-desc">Single or double shot</span></span>
+                  <span class="item-price">&#8369;110</span>
+                </div>
+              </div>
+              <div class="menu-photo-card">
+                <img class="mpc-img" src="images/americano.svg" alt="Americano placeholder image" loading="lazy">
+                <div class="mpc-body">
+                  <span><span class="item-name">Americano</span><span class="item-desc">Espresso, hot water</span></span>
+                  <span class="item-price">&#8369;120</span>
+                </div>
+              </div>
+              <div class="menu-photo-card">
+                <img class="mpc-img" src="images/cappuccino-latte.svg" alt="Cappuccino / Latte placeholder image" loading="lazy">
+                <div class="mpc-body">
+                  <span><span class="item-name">Cappuccino / Latte</span><span class="item-desc">Steamed milk, your choice of flavor</span></span>
+                  <span class="item-price">&#8369;140</span>
+                </div>
+              </div>
+              <div class="menu-photo-card">
+                <img class="mpc-img" src="images/cold-brew.svg" alt="Cold Brew placeholder image" loading="lazy">
+                <div class="mpc-body">
+                  <span><span class="item-name">Cold Brew</span><span class="item-desc">Steeped 18 hours, served over ice</span></span>
+                  <span class="item-price">&#8369;150</span>
+                </div>
+              </div>
+              <div class="menu-photo-card">
+                <img class="mpc-img" src="images/seasonal-specialty.svg" alt="Seasonal Specialty placeholder image" loading="lazy">
+                <div class="mpc-body">
+                  <span><span class="item-name">Seasonal Specialty</span><span class="item-desc">Changes monthly with the roast</span></span>
+                  <span class="item-price">&#8369;170</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer: studio details, useful links, and email signup. -->
+    <footer class="site" id="footer">
+      <div class="wrap footer-grid">
+        <div class="footer-col">
+          <div class="brand footer-brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+              <circle cx="20" cy="20" r="19" fill="var(--bronze-600)"/>
+              <path d="M8 24c2-8 6-12 12-12s10 4 12 12" stroke="var(--paper)" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </svg>
+            <span class="brand-name footer-brand-name">hulma</span>
+          </div>
+          <p class="footer-description">Coffee, cake, and clay — poured, baked, and thrown by hand, every day.</p>
+        </div>
+        <div class="footer-col">
+          <h4><a href="about.html">About Us</a></h4>
+          <ul>
+            <li><a href="about.html#about">About</a></li>
+            <li><a href="about.html#history">History</a></li>
+            <li><a href="about.html#mission">Mission</a></li>
+            <li><a href="about.html#vision">Vision</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="in-store-menu.html">In-store Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="stories-news.html">Stories and News</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+          <h4 class="footer-order-heading"><a href="order-now.html">Order Now</a></h4>
+          <div class="order-btns">
+            <a href="order-now.html">FoodPanda <span>&rsaquo;</span></a>
+            <a href="order-now.html">GrabFood <span>&rsaquo;</span></a>
+          </div>
+          <div class="footer-social" aria-label="Social media">
+            <a href="https://www.instagram.com/hulma.local/" aria-label="Instagram">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <rect x="3" y="3" width="18" height="18" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/hulma.local" aria-label="Facebook">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M14 9h3V5h-3c-2.2 0-4 1.8-4 4v2H8v4h2v6h4v-6h3l1-4h-4V9c0-.6.4-1 1-1z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4><a href="signup.html">Sign Up for Updates</a></h4>
+          <!-- This form currently shows feedback only; it does not send email. -->
+          <form class="signup-form" id="signupForm">
+            <input type="email" placeholder="Enter email" required aria-label="Email address">
+            <button type="submit">Join</button>
+          </form>
+          <p class="signup-note-mini" id="signupNote">New classes, restocks, and the odd free pastry.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Hulma Coffee &amp; Craft Studio.</span>
+        <span>Made by hand, one page at a time.</span>
+      </div>
+    </footer>
+    <!-- Shared JavaScript handles the interactive features on this page. -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
